@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <img src="img/logo-utn.png" class="logo" alt="Logo utn" width="450px" height="90px">
+        <nav>
+            <ul>
+                <li><a href="#" class="active">INICIO</a></li>
+                <li><a href="#">SOBRE NOSOTROS</a></li>
+                <li><a href="#contact">CONTACTO</a></li>
+            </ul>
+        </nav>
+        <div class="profile">
+            <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor" width="40px" height="40px">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655
+        6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+            </a>
+        </div>
+    </header>
+    <main>
+        <section class="main-image">
+            <div class="img-background">
+                <img src="img/3foferta.jpg" alt="home" max-width="1200" height="400">
+                <h1>Bienvenido a la Universidad Tecnológica Nacional</h1>
+            </div>
+            <div class="img-content">
+                <p>En Rosario, la Facultad Regional de la Universidad
+                    Tecnológica Nacional tiene sus orígenes en 1953 sobre la base de la Escuela
+                    Fábrica N° 40 (hoy E.E.T. N° 468) y del Ciclo Técnico (que funcionaba en el
+                    actual Colegio Nacional N° 2), dependientes
+                    ambos de la Comisión Nacional de Aprendizaje y
+                    Orientación Profesional. El primer Secretario Técnico fue el Ing. Giordano
+                    Marchiori, quien conformó las primeras cátedras e inscribió los primeros
+                    alumnos en las carreras de: Ingeniería
+                    Mecánica, Ingeniería en Construcciones e Ingeniería
+                    Electromecánica.</p>
+            </div>
+        </section>
+        <h2 id="carrera_univ">Carreras universitarias</h2>
+        <section class ="main-universitarias">
+            <div class="carreras">
+                <h3>Ingenieria Civil</h3>
+                <p>La INGENIERÍA CIVIL se ocupa del diseño (desarrollo creativo de una idea que
+                    se materializa) de obras que permiten modificar y aprovechar la naturaleza a
+                    fin de favorecer el desarrollo de la sociedad, mejorar la vida de sus miembros
+                    y facilitar la interconexión entre los pueblos.
+                </p>
+            </div>
+            <div class="carreras">
+                <h3>Ingenieria Eléctrica</h3>
+                <p>La Ingeniería Eléctrica se ocupa del diseño (desarrollo creativo de una idea),
+                    la construcción (idea que se materializa) y el mantenimiento de medios y
+                    mecanismos necesarios para la obtención, generación, transmisión, distribución
+                    y utilización de la energía eléctrica.
+                </p>
+            </div>
+            <div class="carreras">
+                <h3>Ingenieria Quimica</h3>
+                <p>La INGENIERÍA QUÍMICA es la rama de la ingeniería que se dedica al estudio,
+                    síntesis, desarrollo, diseño, operación y optimización de todos aquellos
+                    procesos industriales que producen cambios físicos, químicos y/o bioquímicos
+                    en los materiales.
+                </p>
+            </div>
+            <div class="carreras">
+                <h3>Ingenieria en Sistemas de Informacion</h3>
+                <p>La Ingeniería en Sistemas de Información se ocupa del diseño (desarrollo
+                    creativo de una idea), implementación (idea que se materializa), organización
+                    y control de la información requerida por organismos públicos y privados.                    
+                </p>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="contacto-h1">
+                <h2>Contacto</h2>
+                <p>Complete sus datos y un profesional se encargara de contactarlo</p>
+            </div>
+            <section class="main-contacto">
+                <div class="formulario1">
+                    <form action="">
+                        <label for="name">Nombre y Apellido</label>
+                        <input type="text" id="name" required>
+                        <label for="date">Fecha de nacimiento</label>
+                        <input type="date" name="date" id="date">
+                        <br>
+                        <label for="email">Correo electronico</label>
+                        <input type="text" id="email">
+                        <label for="cel">Número de contacto</label>
+                        <input type="number" name="cel" id="cel" placeholder="Celular/Fijo">
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+                <div class="formulario2">
+                    <form action="">
+                        <label for="text">Observaciones</label>
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                        <input type="button" value="Enviar">
+                    </form>
+                </div>
+                
+            </section>
+        </section>
+    </main>
+</body>
+<footer>
+    <section class="main-footer">
+        <div class="contenido">
+            <table>
+                <thead><b>Encontra tu facultad más cercana</b></thead>
+                <tbody>
+                    <td>
+                        <ul>
+                            <li><a href="https://www.frba.utn.edu.ar/" target="_blank">Sede Buenos Aires</a></li>
+                            <li><a href="https://www.frc.utn.edu.ar/" target="_blank">Sede Cordoba</a></li>
+                            <li><a href="https://mdp.utn.edu.ar/" target="_blank">Sede Mar del Plata</a></li>
+                            <li><a href="https://www.frp.utn.edu.ar/info2/" target="_blank">Sede Paraná</a></li>
+                            <li><a href="https://www.frro.utn.edu.ar/" target="_blank">Sede Rosario</a></li>
+                        </ul>
+                    </td>
+                </tbody>
+            </table>
+        </div>
+        <div class="contenido">
+            <thead><b>Enlaces UTN</b></thead>
+                <tbody>
+                    <td>
+                        <ul>
+                            <li><a href="https://utn.edu.ar/es/dasuten/inicio" target="_blank">DASUTeN</a></li>
+                            <li><a href="http://www.edutecne.utn.edu.ar/inicio.html" target="_blank">eDUTecNe</a></li>
+                            <li><a href="http://www.aputn.org.ar/" target="_blank">APUTN</a></li>
+                            <li><a href="https://www.adut.org/" target="_blank">ADUT</a></li>
+                            <li><a href="https://www.fagdut.org.ar/" target="_blank">FAGDUT</a></li>
+                        </ul>
+                    </td>
+                </tbody>
+            </table>
+        </div>
+        <div class="contenido">
+            <p>
+                <b>FACULTAD REGIONAL ROSARIO</b>
+                <br>
+                Universidad Tecnológica Nacional
+                <br>
+                CONTACTOS: ZEBALLOS 1341 - S2000BQA - ROSARIO
+                <br>
+                0341 - 4481871   Teléfonos directos e Internos
+            </p>
+        </div>
+        <div class="contenido">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1673.9289926023812!2d-60.64444439939346!3d-32.954758660072976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab11d0eb49c3%3A0x11f1d3d54f950dd0!2sUniversidad%20Tecnol%C3%B3gica%20Nacional%20%7C%20Facultad%20Regional%20Rosario!5e0!3m2!1ses!2sar!4v1598106189927!5m2!1ses!2sar" width="400" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+    </section>
+</footer>
+
+</html>

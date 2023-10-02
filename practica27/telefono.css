@@ -1,0 +1,14 @@
+*{
+    background-color: rgb(148, 148, 235);
+}
+.product-details-content{
+    display: flex;
+    height: 500px;
+    flex-direction: column;
+    background-color: rgb(181, 177, 177);
+    justify-content: center;
+    align-items: center;
+}
+form{
+    background-color: rgb(181, 177, 177);
+}

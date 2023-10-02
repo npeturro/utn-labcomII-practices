@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="img/favicon/faviconV2.png">
+    <title>Calculadora EPE</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <header>
+        <img src="img/multimedia.normal.b7b14ee966c71c6b.6570655f6e6f726d616c2e77656270.webp" alt="epe-logo"
+            height="100" width="180">
+        <h1 class="title">Simulador de consumo</h1>
+    </header>
+    <section>
+        <div>
+            <p>1. Seleccione tipo de usuario:</p>
+            <input type="radio" name="type_user" value="residencial">
+            <label for="residencial">Residencial</label><br>
+            <input type="radio" name="type_user" value="industria">
+            <label for="industria">Industria</label>
+            <p>2. Zona de domicilio:</p>
+            <select name="zone_dom" id="zone_dom">
+                <option value="" disabled selected hidden>Distrito</option>
+                <option value="centro">Distrito Centro</option>
+                <option value="sur">Distrito Sur</option>
+                <option value="oeste">Distrito Oeste</option>
+                <option value="norte">Distrito Norte</option>
+            </select>
+            <p>3. Cantidad de kWh del mes</p>
+            <input type="number" id="cant_kwh" value="0">
+            <button value="calcular_button" onclick="calculatePrice()">Calcular</button>
+            <p id="resultado"></p>
+        </div>
+    </section>
+    <footer>
+        <p style="color: gray;">©2023 Empresa Provincial de la Energía de Santa Fe</p>
+    </footer>
+</body>
+
+</html>

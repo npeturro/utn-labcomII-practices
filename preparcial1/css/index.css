@@ -1,0 +1,121 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(65, 65, 65);
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    background-color: rgba(151, 149, 149, 0.411);
+    align-items: center;
+    display: flex;
+    border-top: 2px solid black;
+}
+header li{
+    display: inline-flex;
+    font-size: 20px;
+    padding: 20px;
+}
+header li:hover{
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+header a{
+    text-decoration: none;
+    color: rgb(65, 65, 65);
+    font-size: 15px;
+}
+header ul{
+    text-align: right;
+}
+.profile{
+    margin-left: auto;
+}
+.profile svg{
+    color: black;
+}
+.main-image{
+    display: flex;
+    flex-direction: row;
+}
+.img-content{
+    margin: 50px;
+}
+.img-background{
+    position: relative;
+    text-align: center;
+}
+.img-background h1{
+    position: absolute; /* Coloca el h1 de forma absoluta dentro del contenedor .img-background */
+    top: 50%; /* Lo coloca en el centro verticalmente */
+    left: 50%; /* Lo coloca en el centro horizontalmente */
+    transform: translate(-50%, -50%); /* Lo ajusta para centrarlo correctamente */
+    color: white;
+}
+
+#carrera_univ{
+    text-align: center;
+    background-color: rgb(54, 44, 44);
+    color: white;
+    padding-top: 30px;
+}
+.main-universitarias{
+    background-color: rgb(54, 44, 44);
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 50px;
+    text-align: left;
+}
+.main-universitarias p, h3{
+    color: white;
+}
+.carreras{
+    width: 250px;
+    padding: 30px;
+    
+}
+.carreras p{
+    margin-top: 25px;  
+}
+.carreras:hover{
+    background-color: rgba(151, 149, 149, 0.411);
+    cursor: pointer;
+}
+.main-footer{
+    display: grid;
+    padding: 20px;
+    background-color: rgb(240, 240, 240); 
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-between;
+}
+.contenido a{
+    text-decoration: none;
+}
+.contenido li{
+    list-style: none;
+    margin: 15px;
+}
+.contacto-h1{
+    text-align: center;
+    padding-top: 5px;
+    margin: 5px;
+}
+.main-contacto{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    padding: 20px;
+    justify-content: space-around;
+}
+.formulario1 input{
+    margin: 5px;
+    margin-left: 0px;
+    width: 200px;
+}
+.formulario2 textarea{
+    margin: 5px;
+    margin-left: 0px;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    var GuardarDatos = function(){
+        
+        localStorage.nombre = document.getElementById('nombre').value;
+        localStorage.apellido = document.getElementById('apellido').value;   
+    }
+    var RecuperarDatos = function(){
+
+        let p = document.getElementById('datos');
+
+        p.innerText = 'Nombre ' + localStorage.nombre + ' Apellido ' + localStorage.apellido;
+
+    }
+</script>
+<body>
+    <form id="form" action="">
+        <label for="nombre">Nombre: </label>
+        <input type="text" id="nombre">
+        <label for="apellido">Apellido: </label>
+        <input type="text" id="apellido">
+        
+        <input type="button" value="Guardar datos" onclick="GuardarDatos();">
+        <hr>
+
+    </form>
+    <p id="datos"> Haga click</p>
+    <input type="button" value="Recuperar datos" onclick="RecuperarDatos();">
+
+</body>
+</html>
